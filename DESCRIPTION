@@ -1,0 +1,67 @@
+Package: mgalda
+Title: 360 Multi tool library
+Version: 2.1
+Authors@R: 
+    person("Matias", "G.", , "mgaldame@rfen.uchile.cl", role = c("aut", "cre"))
+Description: Libreria con el fin de aprendizaje (compac) y generar
+    herramientas.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Collate: 
+    'util_print.R'
+    'utils.R'
+    'util_env.R'
+    'util_base.R'
+    'assert_inheritance.R'
+    'bestnorm.R'
+    'clip_bounds.R'
+    'cluster_tools.R'
+    'custom_metrics.R'
+    'custom_step.R'
+    'data_summary.R'
+    'datamanipulation.R'
+    'datatools.R'
+    'datatransform.R'
+    'discretizer.R'
+    'distributions.R'
+    'distributions_generic_n_ops.R'
+    'distributions_obj_to_qpdr.R'
+    'distributions_pdqr.R'
+    'distributions_utils.R'
+    'f_ply.R'
+    'financialmath.R'
+    'find_globals.R'
+    'fuzzy_join.R'
+    'graphicsR_utils.R'
+    'graphicsR.R'
+    'graphicsR_scales_palettes.R'
+    'graphicsR_stats_geom.R'
+    'graphicsR_themes.R'
+    'log_concave.R'
+    'mgalda-package.R'
+    'misc.R'
+    'mltools.R'
+    'nonstandard_eval.R'
+    'nonstandard_eval_formula.R'
+    'resamples.R'
+    'seqs.R'
+    'solver.R'
+    'spatial.R'
+    'statisticstools.R'
+    'string_manipulation.R'
+    'superlearner.R'
+    'superlearner_preprocess.R'
+    'superlearner_preprocess_helpers.R'
+    'superlearner_utils.R'
+    'treetools.R'
+    'twostep.R'
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
+Depends: 
+    R (>= 2.10)
+LazyData: true
