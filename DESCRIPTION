@@ -2,8 +2,8 @@ Package: mgalda
 Title: 360 Multi tool library
 Version: 2.1
 Authors@R: 
-    person("Matias", "G.", , "mgaldame@rfen.uchile.cl", role = c("aut", "cre"))
-Description: Libreria con el fin de aprendizaje (compac) y generar
+    person("Matias", "G.", email = "mgaldame@rfen.uchile.cl", role = c("aut", "cre"))
+Description: Librería con el fin de aprendizaje (compac) y generar
     herramientas.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -28,7 +28,7 @@ Collate:
     'discretizer.R'
     'distributions.R'
     'distributions_generic_n_ops.R'
-    'distributions_obj_to_qpdr.R'
+    'distributions_obj_to_qqdr.R'
     'distributions_pdqr.R'
     'distributions_utils.R'
     'f_ply.R'
@@ -50,7 +50,7 @@ Collate:
     'seqs.R'
     'solver.R'
     'spatial.R'
-    'statisticstools.R'
+    'statisticaltools.R'
     'string_manipulation.R'
     'superlearner.R'
     'superlearner_preprocess.R'
